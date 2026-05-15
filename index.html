@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo Lins | Portfólio de Ciência de Dados</title>
+  <meta name="description" content="Portfólio de Leonardo Lins - Estudante de Ciência de Dados e Machine Learning no CEUB. Transformando dados em decisões estratégicas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">LL<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#testemunhos">Testemunhos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="nav-cta" onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})">Fale comigo</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+    <ul class="mobile-links" id="mobile-links">
+      <li><a href="#sobre" onclick="closeMobile()">Sobre</a></li>
+      <li><a href="#habilidades" onclick="closeMobile()">Habilidades</a></li>
+      <li><a href="#projetos" onclick="closeMobile()">Projetos</a></li>
+      <li><a href="#testemunhos" onclick="closeMobile()">Testemunhos</a></li>
+      <li><a href="#contato" onclick="closeMobile()">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="badge animate-fade">Estudante de Ciência de Dados · CEUB</div>
+      <h1 class="hero-title animate-slide">
+        <span class="gradient-text">Data Science</span><br>Portfolio
+      </h1>
+      <p class="hero-sub animate-slide delay-1">Transformando Dados em Decisões Estratégicas</p>
+      <div class="hero-actions animate-slide delay-2">
+        <a href="#projetos" class="btn-primary">Ver Projetos</a>
+        <a href="https://canva.link/vma0gpb6jzhx78g" target="_blank" class="btn-outline">Download Currículo</a>
+      </div>
+      <div class="hero-scroll animate-fade delay-3">
+        <span></span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <div class="floating-card card1">
+        <span class="card-icon">🐍</span>
+        <span>Python</span>
+      </div>
+      <div class="floating-card card2">
+        <span class="card-icon">📊</span>
+        <span>Power BI</span>
+      </div>
+      <div class="floating-card card3">
+        <span class="card-icon">🤖</span>
+        <span>Machine Learning</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SOBRE ── -->
+  <section id="sobre">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Slide 2 · Perfil</span>
+        <h2>Sobre Mim</h2>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-avatar">
+          <div class="avatar-ring">
+            <div class="avatar-inner">LL</div>
+          </div>
+          <div class="avatar-badge">
+            <span>🎓</span> CEUB
+          </div>
+        </div>
+        <div class="sobre-texto">
+          <h3>Olá, meu nome é <span class="gradient-text">Leonardo Lins</span>.</h3>
+          <p>Sou estudante de <strong>Ciência de Dados e Machine Learning</strong> no CEUB, atualmente cursando o 1º semestre. Formado em Marketing (Digital e Data Science).</p>
+          <p>Meus conhecimentos na área de Ciência de Dados ainda são básicos, com Python básico, mas irei dar o meu máximo para uma evolução constante e crescimento na área.</p>
+          <p>Sou uma pessoa dedicada e comprometida. Tenho facilidade para trabalhar em equipe e boa comunicação. Busco constantemente aprimorar minhas habilidades e contribuir de forma positiva para o ambiente de trabalho.</p>
+          <div class="sobre-links">
+            <a href="https://canva.link/vma0gpb6jzhx78g" target="_blank" class="chip">📄 Currículo</a>
+            <a href="https://docs.google.com/presentation/d/1odIp6UXsLxMMC8jSYM8mfmkHVJbdalYoD57CKUlRY0s/edit?usp=sharing" target="_blank" class="chip">🖥️ Slides Portfólio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── IDIOMAS & CERTIFICAÇÕES ── -->
+  <section id="idiomas">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Slide 3 · Formação</span>
+        <h2>Idiomas & Certificações</h2>
+      </div>
+      <div class="idiomas-grid">
+        <div class="idioma-card card-glass">
+          <div class="flag">🇺🇸</div>
+          <h3>Inglês</h3>
+          <span class="nivel-badge">Nível A1</span>
+          <p>Capacidade de compreensão de termos técnicos e leitura básica.</p>
+        </div>
+        <div class="idioma-card card-glass">
+          <div class="flag">🇪🇸</div>
+          <h3>Espanhol</h3>
+          <span class="nivel-badge nivel-b1">Nível B1</span>
+          <p>Comunicação intermediária para leitura e conversação fluida.</p>
+        </div>
+        <div class="idioma-card card-glass cert-card">
+          <div class="flag">🏆</div>
+          <h3>Certificações</h3>
+          <span class="nivel-badge nivel-cert">Alura Online</span>
+          <ul>
+            <li>✔ Python Básico</li>
+            <li>✔ Matemática em Data Science</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HABILIDADES ── -->
+  <section id="habilidades">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Slides 4 & 5 · Skills</span>
+        <h2>Habilidades</h2>
+      </div>
+      <div class="skills-wrapper">
+        <div class="skills-col">
+          <h3 class="skills-subtitle">🧠 Soft Skills</h3>
+          <div class="skill-item">
+            <div class="skill-icon">💡</div>
+            <div>
+              <strong>Pensamento Crítico</strong>
+              <p>Capacidade de analisar dados de forma objetiva para chegar a conclusões fundamentadas.</p>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">🔄</div>
+            <div>
+              <strong>Adaptabilidade</strong>
+              <p>Flexibilidade para aprender novas tecnologias e se ajustar a ambientes dinâmicos e voláteis.</p>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">🚀</div>
+            <div>
+              <strong>Criatividade e Inovação</strong>
+              <p>Busca constante por soluções disruptivas e novas formas de extrair valor dos dados.</p>
+            </div>
+          </div>
+        </div>
+        <div class="skills-divider"></div>
+        <div class="skills-col">
+          <h3 class="skills-subtitle">⚙️ Hard Skills</h3>
+          <div class="hard-skill">
+            <div class="hard-skill-header">
+              <span class="hs-icon">🐍</span>
+              <span class="hs-name">Python</span>
+              <span class="hs-bar-wrap"><span class="hs-bar" style="width:45%"></span></span>
+            </div>
+            <p>Desenvolvimento de scripts para limpeza de dados, análise estatística e Machine Learning.</p>
+          </div>
+          <div class="hard-skill">
+            <div class="hard-skill-header">
+              <span class="hs-icon">📁</span>
+              <span class="hs-name">Pacote Office</span>
+              <span class="hs-bar-wrap"><span class="hs-bar" style="width:80%"></span></span>
+            </div>
+            <p>Domínio avançado de Excel para modelagem financeira e relatórios corporativos.</p>
+          </div>
+          <div class="hard-skill">
+            <div class="hard-skill-header">
+              <span class="hs-icon">📊</span>
+              <span class="hs-name">Power BI</span>
+              <span class="hs-bar-wrap"><span class="hs-bar" style="width:60%"></span></span>
+            </div>
+            <p>Criação de dashboards interativos e dinâmicos para visualização de KPIs estratégicos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJETOS ── -->
+  <section id="projetos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Slide 6 · GitHub</span>
+        <h2>Projetos</h2>
+      </div>
+      <div class="projetos-grid">
+
+        <div class="projeto-card card-glass">
+          <div class="projeto-header">
+            <span class="repo-icon">📂</span>
+            <span class="repo-badge">Public</span>
+          </div>
+          <h3>Projeto EDA – Pandas</h3>
+          <p>Desenvolvimento de um workflow completo de Análise Exploratória de Dados (EDA) utilizando a biblioteca Pandas para uma base de dados real.</p>
+          <ul class="projeto-list">
+            <li>🔹 Limpeza e higienização de dados</li>
+            <li>🔹 Identificação de outliers e tendências</li>
+            <li>🔹 Geração de estatísticas descritivas</li>
+          </ul>
+          <div class="projeto-footer">
+            <span class="lang-badge">📓 Jupyter Notebook</span>
+            <a href="https://github.com/LeonardoLinsAbreu/Pandas_EDA_Exercicio_1--Intr.Cien.Dados" target="_blank" class="btn-repo">Ver Repositório →</a>
+          </div>
+        </div>
+
+        <div class="projeto-card card-glass">
+          <div class="projeto-header">
+            <span class="repo-icon">📂</span>
+            <span class="repo-badge">Public</span>
+          </div>
+          <h3>Atividade Pandas 2</h3>
+          <p>Segunda atividade de manipulação de dados com Pandas na matéria de Introdução à Ciência de Dados, aprofundando técnicas de análise e tratamento de datasets.</p>
+          <ul class="projeto-list">
+            <li>🔹 Manipulação avançada de DataFrames</li>
+            <li>🔹 Análise de dados estruturados</li>
+          </ul>
+          <div class="projeto-footer">
+            <span class="lang-badge">📓 Jupyter Notebook</span>
+            <a href="https://github.com/LeonardoLinsAbreu/Atividade-Pandas-2---Introd.-Ci-ncia-de-Dados" target="_blank" class="btn-repo">Ver Repositório →</a>
+          </div>
+        </div>
+
+        <div class="projeto-card card-glass">
+          <div class="projeto-header">
+            <span class="repo-icon">📂</span>
+            <span class="repo-badge">Public</span>
+          </div>
+          <h3>Projeto Aula 1</h3>
+          <p>Projeto desenvolvido em aula como introdução prática ao ambiente de desenvolvimento e primeiros passos com Python e ferramentas de Data Science.</p>
+          <ul class="projeto-list">
+            <li>🔹 Introdução ao Python</li>
+            <li>🔹 Primeiros scripts de dados</li>
+          </ul>
+          <div class="projeto-footer">
+            <span class="lang-badge">🐍 Python</span>
+            <a href="https://github.com/LeonardoLinsAbreu/Projeto-Aula-1" target="_blank" class="btn-repo">Ver Repositório →</a>
+          </div>
+        </div>
+
+        <div class="projeto-card card-glass featured">
+          <div class="projeto-header">
+            <span class="repo-icon">⭐</span>
+            <span class="repo-badge badge-featured">Bootcamp</span>
+          </div>
+          <h3>Projeto Bootcamp 1</h3>
+          <p>Projeto principal do Bootcamp, consolidando os conhecimentos adquiridos no curso de Ciência de Dados e Machine Learning. Este site é parte desse projeto!</p>
+          <ul class="projeto-list">
+            <li>🔹 Portfólio em GitHub Pages</li>
+            <li>🔹 Integração de todas as entregas</li>
+          </ul>
+          <div class="projeto-footer">
+            <span class="lang-badge">🌐 HTML / CSS</span>
+            <a href="https://github.com/LeonardoLinsAbreu/Projeto_Bootcamp_1" target="_blank" class="btn-repo">Ver Repositório →</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="github-cta">
+        <a href="https://github.com/LeonardoLinsAbreu" target="_blank" id="github-profile-link" class="btn-github">
+          <svg height="20" viewBox="0 0 16 16" width="20" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          Ver perfil completo no GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTEMUNHOS ── -->
+  <section id="testemunhos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Slide 7 · Recomendações</span>
+        <h2>Testemunhos & Recomendações</h2>
+      </div>
+      <div class="testemunhos-grid">
+        <div class="testemunho-card card-glass">
+          <div class="quote-icon">"</div>
+          <p class="testemunho-texto">Trabalhar com o Leonardo foi uma experiência incrível. Ele sempre trouxe soluções criativas e garantiu que nosso projeto fosse concluído com qualidade.</p>
+          <div class="testemunho-author">
+            <div class="author-avatar">PL</div>
+            <div>
+              <strong>Pedro Lima</strong>
+              <span>Trabalho sobre Modelo Iterativo e Incremental</span>
+            </div>
+          </div>
+        </div>
+        <div class="testemunho-card card-glass">
+          <div class="quote-icon">"</div>
+          <p class="testemunho-texto">Recomendo o Leonardo para qualquer pessoa que queira um trabalho bem feito. Ele é organizado, criativo e muito fácil de colaborar.</p>
+          <div class="testemunho-author">
+            <div class="author-avatar">VC</div>
+            <div>
+              <strong>Vitor Calasans</strong>
+              <span>Trabalho sobre Sistema de Informação – Playstation App</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTATO ── -->
+  <section id="contato">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Slide 8 · Contato</span>
+        <h2>Vamos Conversar?</h2>
+        <p class="section-desc">Sinta-se à vontade para entrar em contato!</p>
+      </div>
+      <div class="contato-grid">
+        <a href="mailto:leonardo.lab999@gmail.com" id="email-link" class="contato-card card-glass">
+          <div class="contato-icon">✉️</div>
+          <strong>E-mail</strong>
+          <span>leonardo.lab999@gmail.com</span>
+        </a>
+        <a href="http://www.linkedin.com/in/leonardo-lins-de-abreu-borges-93074a376" target="_blank" id="linkedin-link" class="contato-card card-glass">
+          <div class="contato-icon">💼</div>
+          <strong>LinkedIn</strong>
+          <span>Leonardo Lins de Abreu Borges</span>
+        </a>
+        <a href="https://github.com/LeonardoLinsAbreu" target="_blank" id="github-link" class="contato-card card-glass">
+          <div class="contato-icon">🐙</div>
+          <strong>GitHub</strong>
+          <span>LeonardoLinsAbreu</span>
+        </a>
+        <a href="https://sites.google.com/view/site-bootcamp-1/p%C3%A1gina-inicial" target="_blank" id="site-link" class="contato-card card-glass">
+          <div class="contato-icon">🌐</div>
+          <strong>Google Sites</strong>
+          <span>Portfólio Original</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+      <span class="nav-logo">LL<span class="dot">.</span></span>
+      <p>A ciência de dados é o futuro, e eu estou pronto para construí-lo. 🚀</p>
+      <span class="footer-copy">© 2025 Leonardo Lins · Portfólio de Ciência de Dados</span>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Hamburger
+    const hamburger = document.getElementById('hamburger');
+    const mobileLinks = document.getElementById('mobile-links');
+    hamburger.addEventListener('click', () => {
+      mobileLinks.classList.toggle('open');
+    });
+    function closeMobile() {
+      mobileLinks.classList.remove('open');
+    }
+
+    // Intersection Observer animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('section, .projeto-card, .idioma-card, .testemunho-card, .contato-card, .skill-item, .hard-skill').forEach(el => {
+      el.classList.add('reveal');
+      observer.observe(el);
+    });
+
+    // Animate skill bars on scroll
+    const barObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.hs-bar').forEach(bar => {
+            bar.style.transition = 'width 1.2s cubic-bezier(.4,0,.2,1)';
+          });
+        }
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.skills-col').forEach(el => barObserver.observe(el));
+  </script>
+</body>
+</html>
