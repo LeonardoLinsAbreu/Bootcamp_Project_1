@@ -4,7 +4,7 @@
 
 Site de portfólio pessoal desenvolvido para o **Bootcamp 1** do curso de Ciência de Dados e Machine Learning — CEUB.
 
-🌐 **GitHub Pages:** [https://leonardolinsabreu.github.io/Projeto_Bootcamp_1](https://leonardolinsabreu.github.io/Projeto_Bootcamp_1)
+🌐 **GitHub Pages:** (https://leonardolinsabreu.github.io/Projeto_Bootcamp_1)
 
 ---
 
